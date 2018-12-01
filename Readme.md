@@ -1,15 +1,21 @@
 
-Open Command Prompt (cmd), run below commands to install
+## Implemented below Python scripts 
+* Monitor_App.py
+* Display_App.py
+* parse.py
+* config.py
 
-Modules to install for Monitor_App.py and Display_App.py
+
+#### Open Command Prompt (cmd), run below commands to install
+#### Modules to install for Monitor_App.py and Display_App.py
     python -m pip install Socket
     python -m pip install argparse
     
-Modules to install for parser.py 
+#### Modules to install for parser.py 
     python -m pip install watchdog
 
-Execution Output display in Console:
-
+##Execution Output display in Console:
+```markdown
 (c) 2018 Microsoft Corporation. All rights reserved.
 
 C:\Python37\MyScriptsSE\CodingExercise\Development>C:\Python37\python.exe Monitor_App.py --port=9900
@@ -18,8 +24,8 @@ Waiting to receive message from client
 Data: b'Test message. This will be echoed'
 sent b'Test message. This will be echoed' bytes back to ('127.0.0.1', 55351)
 Waiting to receive message from client
-
-
+```
+```markdown
 C:\Python37\MyScriptsSE\CodingExercise\Development>C:\Python37\python.exe Display_App.py --port=9900
 (c) 2018 Microsoft Corporation. All rights reserved.
 
@@ -28,11 +34,14 @@ Connecting to localhost port 9900
 Sending Test message. This will be echoed
 Received: b'Test message. This will be echoed'
 Closing connection to the server
-
+```
+```markdown
 C:\Python37\MyScriptsSE\CodingExercise\Development> 
-open Config.py:
-
+open Config.py
 Intial Config file Details:
+```
+
+```json
 config_parser = {
   "access_points": [
     {
@@ -52,14 +61,17 @@ config_parser = {
     }
   ]
 }
+```
+```commandline
 C:\Python37\python.exe C:/Python37/MyScriptsSE/CodingExercise/Development/parser.py
 DEBUG      2018-12-01 19:36:08,452  __main__   main             48  : starting main
 DEBUG      2018-12-01 19:36:08,452  __main__   __init__         30  : parser init start
 DEBUG      2018-12-01 19:36:08,452  __main__   __init__         32  : current config: {"access_points": [{"ssid": "MyAP", "snr": 63, "channel": 11}, {"ssid": "YourAP", "snr": 42, "channel": 1}, {"ssid": "HisAP", "snr": 54, "channel": 6}]}
+```
 
 
-Modified Config file to after few seconds: 
-
+####Modified Config file to after few seconds: 
+```json
 config_parser = {
   "access_points": [
     {
@@ -79,7 +91,8 @@ config_parser = {
     }
   ]
 }
-
+```
+```commandline
 Output:
 C:\Python37\python.exe C:/Python37/MyScriptsSE/CodingExercise/Development/parser.py
 DEBUG      2018-12-01 19:36:08,452  __main__   main             48  : starting main
@@ -92,3 +105,4 @@ DEBUG      2018-12-01 19:36:36,294  __main__   on_modified      25  : just non i
 DEBUG      2018-12-01 19:36:36,295  __main__   on_modified      25  : just non interesting files changed
 DEBUG      2018-12-01 19:36:43,917  __main__   on_modified      25  : just non interesting files changed
 DEBUG      2018-12-01 19:37:00,407  __main__   on_modified      25  : just non interesting files changed
+```
