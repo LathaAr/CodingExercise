@@ -46,7 +46,7 @@ config_parser = {
   "access_points": [
     {
       "ssid": "MyAP",
-      "snr": 82,
+      "snr": 63,
       "channel": 11
     },
     {
@@ -55,9 +55,9 @@ config_parser = {
       "channel": 1
     },
     {
-      "ssid": "HerAP",
-      "snr": 71,
-      "channel": 1
+      "ssid": "HisAP",
+      "snr": 54,
+      "channel": 6
     }
   ]
 }
