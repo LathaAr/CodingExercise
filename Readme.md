@@ -1,16 +1,15 @@
 ### Description:
-```markdown
+
 I have assumed that the monitor application code resides in the server where the JSON file is located.  And the display application
 resides in client to print the changed data in the JSON file.
 The monitor application continously/periodically monitors the JSON file for any modification.
 Once JSON file is modified, the monitor application informs the display application to display the changes that are change in JSON file
-```
-```markdown
+
 Implemented two applications(present in same network) communication using python socket module
 Implemented Continous monitor modification of JSON using python watchdog module
-```
 
-####Note:
+
+#### Note:
 #### Issues that are face:
 * In parser.py, after modification identifed, Load_config is not functioning. 
 * Since config is not reloading, it is not displaying new config file (Json format) as output of parser.py
