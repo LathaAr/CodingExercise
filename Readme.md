@@ -225,11 +225,11 @@ C:\Python37\python.exe C:/Python37/MyScriptsSE/CodingExercise/AP/WirelessAPs_Mon
 
 ##### Initial UI page
 
-##### **[![Before entering details](C:\Users\latha\Desktop\Wireless_AP_Brower\1.png)
+##### **[![Before entering details](https://github.com/LathaAr/CodingExercise/blob/master/AP/Images/1.png)
 
 ##### UI page with user input (logging enabled) and connected to server
 
-##### ![After entering input with enable logging ](C:\Users\latha\Desktop\Wireless_AP_Brower\2.png)Console output for Enable Debug logging (logging_on)
+##### ![After entering input with enable logging ](https://github.com/LathaAr/CodingExercise/blob/master/AP/Images/2.png)Console output for Enable Debug logging (logging_on)
 
 ```
 C:\Python37\python.exe C:/Python37/MyScriptsSE/CodingExercise/AP/WirelessAPs_Monitor_Websockets_UI.py
@@ -256,7 +256,7 @@ DEBUG:websockets.protocol:server - state = OPEN
 
 ##### UI page with user input (logging disabled)  and connected server
 
-![After entering input with Disable Debug logging](C:\Users\latha\Desktop\Wireless_AP_Brower\4.png)
+![After entering input with Disable Debug logging](https://github.com/LathaAr/CodingExercise/blob/master/AP/Images/4.png)
 
 ##### Console output for Disable Debug Logging (logging_off)
 
